@@ -8,15 +8,15 @@ hver type informasjon lagres på riktig sted, som sin egen enhet. Vi ønsker ing
 ### Utvidet - tabell eksempel
 I dette eksempelet så ser vi at; 
 Bøker, forfatter og forlag er på samme linje. Denne type struktur byr på flere utfordringer. 
-Vi kan ikke søke opp hver ting seperat. Hvilket betyr at man må legge til samme forlag og ect forfatter på nytt hver gang, dette skaper redundens og kan gi duplikater. 
+Vi kan ikke søke opp hver ting seperat. Hvilket betyr at man må legge til samme forlag og evt forfatter på nytt hver gang, dette skaper redundens og kan gi duplikater. 
 
-Stavefeil og variasjoner i skrivemåte kan registrere samme forlag som forskjellige og hvil gi dårlig datastruktur da det kan gi feil ved å søke de opp.
+Stavefeil og variasjoner i skrivemåte kan registrere samme forlag som forskjellige og vil gi dårlig datastruktur da det kan gi feil ved å søke de opp.
 Det foreligger også situasjoner hvor man f.eks sletter en bok og vil også slette forfatter da det ligger kun som tekst og ikke som en egen enhet. Dette er ellers viktig informasjon vi trenger og er derfor viktig at alt av slike ting blir lagret som en egen enhet i egen tabell. 
 
 
 ### 1B. Skisser forbedret tabell
-Under så vil jeg skissere i form at tekst en forbedret versjon av tabell "utvidet Bok". 
-Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter og heller referere de som en ID i bok tabell. 
+Under så vil jeg skissere i form av tekst en forbedret versjon av tabell "utvidet Bok". 
+Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter og heller referere de som en ID i bok tabell via et "auto_increment". Dette gjøres pga de er text basert og har ingen eget unikt ID. så vi skaper en selv med en slik funskjon.
 
 
 ## Tabell Bok
@@ -49,4 +49,3 @@ Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter 
  - Primærnøkkel
    - ForlagID
 
-Forlag og Forfatter får sin primærnøkkel ved et "auto_increment" da disse er basert på text og ikke har en opprinnelig ID. 
