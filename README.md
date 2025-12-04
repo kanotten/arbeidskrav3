@@ -49,3 +49,7 @@ Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter 
  - Primærnøkkel
    - ForlagID
 
+
+
+
+### KILDER OG VERKTØY
