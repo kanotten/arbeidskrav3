@@ -40,3 +40,13 @@ Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter 
    - Fødselår
  - Primærnøkkel
    - ForfatterID
+
+## Tabell Forlag
+ - Kolonner:
+   - ForlagID
+   - Navn
+   - Adresse
+ - Primærnøkkel
+   - ForlagID
+
+Forlag og Forfatter får sin primærnøkkel ved et "auto_increment" da disse er basert på text og ikke har en opprinnelig ID. 
