@@ -10,7 +10,7 @@ I dette eksempelet så ser vi at;
 Bøker, forfatter og forlag er på samme linje. Denne type struktur byr på flere utfordringer. 
 Vi kan ikke søke opp hver ting seperat. Hvilket betyr at man må legge til samme forlag og ect forfatter på nytt hver gang, dette skaper redundens og kan gi duplikater. 
 
-Stavefeil og variasjoner i skrivemåte kan registrere samme forlag som forskjellige og hvil gi dårlig datastruktur da det ikke blir mulig å søke de opp.
+Stavefeil og variasjoner i skrivemåte kan registrere samme forlag som forskjellige og hvil gi dårlig datastruktur da det kan gi feil ved å søke de opp.
 Det foreligger også situasjoner hvor man f.eks sletter en bok og vil også slette forfatter da det ligger kun som tekst og ikke som en egen enhet. Dette er ellers viktig informasjon vi trenger og er derfor viktig at alt av slike ting blir lagret som en egen enhet i egen tabell. 
 
 
