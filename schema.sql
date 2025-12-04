@@ -24,3 +24,9 @@ CREATE TABLE bok (
     FOREIGN KEY (forlag_id) REFERENCES forlag(forlag_id)
 );
 
+-- jeg bruker: USE bibliotek i starten av sql scriptet fordi jeg oppretter skjema bibliotek.
+-- jeg møtte på noen problemer pga stave feil og måtte legge til:
+-- DROP TABLE IF EXISTS bok;
+-- DROP TABLE IF EXISTS forlag;
+-- DROP TABLE IF EXISTS forfatter;
+-- Det er pågrunn av når jeg kjørte tabellene på nytt etter redigering så fikk jeg feilen *tabell finnes allerede. 
