@@ -34,4 +34,9 @@ Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter 
    - ForlagID - Forlag tabell
 
 ## Tabell Forfatter
- - 
+ - Kolonner: 
+   - ForfatterID
+   - Navn
+   - Fødselår
+ - Primærnøkkel
+   - ForfatterID
