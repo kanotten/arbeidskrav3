@@ -17,3 +17,21 @@ Det foreligger også situasjoner hvor man f.eks sletter en bok og vil også slet
 ### 1B. Skisser forbedret tabell
 Under så vil jeg skissere i form at tekst en forbedret versjon av tabell "utvidet Bok". 
 Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter og heller referere de som en ID i bok tabell. 
+
+
+## Tabell Bok
+ - Kolonner: 
+   - ISBN
+   - Tittel
+   - Utgivelses år
+   - AntallSider
+   - ForfatterID (dette er blitt gjort om som egen enhet)
+   - ForlagID (Dette er blitt gjort om som egen enhet)
+ - Primærnøkkel:
+   - ISBN
+ - Fremmednøkkel:
+   - ForfatterID - Forfatter tabell
+   - ForlagID - Forlag tabell
+
+## Tabell Forfatter
+ - 
