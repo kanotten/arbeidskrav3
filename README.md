@@ -53,3 +53,20 @@ Jeg har valgt å dele den opp og putte "Forfatter" og "forlag" som egne enheter 
 
 
 ### KILDER OG VERKTØY
+
+stack overflow:
+
+for hjelp med best håndtering av beste skrive måte av koden. ikke bruke "gammel måte" i den forstand forfatterID / forfatter_id osv
+
+Gokstad Akademiet sine eget matriale og videor som hoved hjelp.
+
+ChatGpt:
+
+Hjelp med og sette opp oppgaven som liste og lettere kunne foholde seg til den.
+
+gå igjennom stavefeil og eller syntax.
+gå igjennom feil meldinger. 
+
+hjelp med installasjon av workbench og my sql via terminal - brew. 
+
+Gå igjennom mitt eget manus, skape litt bedre flyt og droppe gjentagelser i teksten. Denne teksten var skrevet av meg for video på 10 min som skulle leveres inn. 
